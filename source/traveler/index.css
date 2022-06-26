@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+li:hover {
+    outline: 1px solid red;
+}
+
+li > ul {
+    display: none;
+}
+
+li.open > ul {
+    display: block;
+}
